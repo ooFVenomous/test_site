@@ -1,52 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    
-    <!-- Theme Toggle Button -->
-    <div class="theme-toggle" id="themeToggle"></div>
-
-    <!-- Link to custom CSS file -->
-    <link rel="stylesheet" href="/styles.css">
-
-    <!-- Add your custom font from the local CSS folder -->
-    <link href="/css/font/benzin-medium.ttf" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        
-        <!-- Add more content here -->
-    </div>
-
-    <!-- Theme Toggle -->
-    <button id="themeToggle">Toggle Theme</button>
-
-    <script>
-        // Function to toggle theme
-        function toggleTheme() {
-            const body = document.body;
-            if (body.classList.contains('light')) {
-                body.classList.remove('light');
-                body.classList.add('dark');
-            } else {
-                body.classList.remove('dark');
-                body.classList.add('light');
-            }
-            
-            // Add hover effect to theme toggle button
-            const themeToggle = document.getElementById('themeToggle');
-            if (body.classList.contains('light')) {
-                themeToggle.classList.add('dark');
-            } else {
-                themeToggle.classList.remove('dark');
-            }
-        }
-
-        // Event listener for theme toggle button
-        document.getElementById('themeToggle').addEventListener('click', toggleTheme);
-    </script>
-</body>
+    <title>PCW Hub</title>
+    </head>
 </html>
